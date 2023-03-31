@@ -1,0 +1,20 @@
+{
+  "name": "cli-tool",
+  "version": "1.0.0",
+  "description": "CLI tool do download YT videos and convert to MP3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cli-tool": "./index.js"
+  },
+  "author": "Paul Bratslavsky",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.11.3"
+  }
+}
