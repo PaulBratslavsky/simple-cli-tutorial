@@ -6,7 +6,7 @@ A CLI, or Command Line Interface, is a type of user interface that allows users 
 
 We are going to build a simple CLI tool that will allow you to download videos from youtube as well as convert them to audio files.
 
-## Prerequesetes
+## Prerequisites
 
 Make sure that you have node and npm installed. We will use it to download necessary packages that we need for you CLI.
 
@@ -67,7 +67,7 @@ Open your project in `vs code`
 
 Once your project is open go ahead and create an entry file called `index.js`
 
-## What Is Cammander
+## What Is Commander
 
 `commander` is a popular Node.js package that helps to build command-line interfaces (CLIs) in an easy and organized manner. It simplifies the process of parsing command-line arguments, defining commands, handling flags, options, and displaying help documentation.
 
